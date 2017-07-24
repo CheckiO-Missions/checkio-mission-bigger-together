@@ -36,6 +36,10 @@ TESTS = {
             "input": [3, 4],
             "answer": 9,
             "explanation": "43 - 34 = 9"
+        },{
+            "input": [3, 12, 22, 32],
+            "answer": 2009880,
+            "explanation": "3232212 - 1222332 = 2009880"
         }
     ]
 }
