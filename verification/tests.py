@@ -38,8 +38,18 @@ TESTS = {
             "explanation": "43 - 34 = 9"
         },{
             "input": [3, 12, 22, 32],
-            "answer": 2009880,
-            "explanation": "3232212 - 1222332 = 2009880"
+            "answer": 2099889,
+            "explanation": "3322212 - 1222323 = 2099889"
+        },{
+            # From http://www.shiftedup.com/2015/05/08/solution-to-problem-4
+            # Helps fail wrong padding solutions.
+            "input": [420, 42, 423],
+            "answer": 381078,
+            "explanation": "42423420 - 42042342"
+        },{
+            "input": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+            "answer": 977543200604019997959388654311,
+            "explanation": "987654321918171615141312111100 - 10111121314151617181923456789"
         }
     ]
 }
