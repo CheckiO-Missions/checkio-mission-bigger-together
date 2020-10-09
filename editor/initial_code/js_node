@@ -1,19 +1,18 @@
-"use strict";
+import assert from "assert";
 
-function biggerTogether(ints) {
-    // Returns difference between the largest and smallest values
-    // that can be obtained by concatenating the integers together.
-
-    // you code here
+function biggerTogether(a: number[]): number {
+    // your code here
     return 0;
 }
 
-var assert = require('assert');
+console.log('Example:');
+console.log(biggerTogether([1, 2, 3, 4]));
 
-if (!global.is_checking) {
-    assert.equal(biggerTogether([1,2,3,4]), 3087, "4321 - 1234 = 3087")
-    assert.equal(biggerTogether([1,2,3,4, 11, 12]), 32099877, "43212111 - 11112234 = 32099877")
-    assert.equal(biggerTogether([0, 1]), 9, "10 - 01 = 9")
-    assert.equal(biggerTogether([100]), 0, "100 - 100 = 0")
-    console.log("Done! I feel like you good enough to click Check");
-}
+// These "asserts" are used for self-checking
+assert.equal(biggerTogether([1, 2, 3, 4]), 3087);
+assert.equal(biggerTogether([1, 2, 3, 4, 11, 12]), 32099877);
+assert.equal(biggerTogether([0, 1]), 9);
+assert.equal(biggerTogether([100]), 0);
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    

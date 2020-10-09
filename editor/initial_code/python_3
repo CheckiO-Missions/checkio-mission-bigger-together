@@ -1,4 +1,4 @@
-def bigger_together(ints):
+def bigger_together(ints: list[int]) -> int:
     """
         Returns difference between the largest and smallest values
         that can be obtained by concatenating the integers together.
